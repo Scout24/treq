@@ -20,7 +20,7 @@ classifiers = [
 
 
 setup(
-    name="treq",
+    name="python-treq",
     version=__version__,
     packages=find_packages(),
     install_requires=["Twisted >= 12.1.0"],

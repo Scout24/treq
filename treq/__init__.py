@@ -1,3 +1,6 @@
+import warnings
+warnings.filterwarnings("ignore", "Module.*was already imported.*")
+
 from pkg_resources import resource_string
 
 from treq.api import head, get, post, put, patch, delete, request
